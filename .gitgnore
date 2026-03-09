@@ -1,0 +1,24 @@
+# 1. Mengabaikan Virtual Environment
+venv/
+env/
+.env/
+
+# 2. Mengabaikan Cache Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 3. Mengabaikan Hasil Report (Folder reports/)
+reports/
+*.html
+*.json
+*.csv
+
+# 4. Mengabaikan Metadata OS (Opsional)
+.DS_Store
+Thumbs.db
+
+# 5. Mengabaikan File Konfigurasi Sensitif (Jika ada)
+.env
+*.log
